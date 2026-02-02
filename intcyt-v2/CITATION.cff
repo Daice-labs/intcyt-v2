@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "IntCyt v2"
+type: software
+authors:
+  - name: "INTCYT-v2 Team"
+version: "0.1.0"
+date-released: "2026-01-26"
+license: "Apache-2.0"
+repository-code: "https://github.com/daicelabs/intcyt-v2"
+url: "https://github.com/daicelabs/intcyt-v2"
+preferred-citation:
+  type: article
+  title: "Rectifying Stress into Structural Memory Encodes Specialization in Cells and Adaptive Computational Systems"
+  authors:
+    - name: "INTCYT-v2 Team"
+  year: 2026
+  

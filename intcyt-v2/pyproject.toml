@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intcyt"
+version = "0.1.0"
+description = "INTCYT: operadic optimization with thermodynamic accounting (entropy/LND/DOE/TUR)"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "INTCYT Team", email = "team@example.com" }
+]
+license = { file = "LICENSE" }
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+eval = ["torch", "torchvision", "scikit-learn"]
+dev = ["pytest>=7.4"]
+# viz stays empty because matplotlib is already a core dependency.
+viz = []
+
+[project.scripts]
+intcyt = "intcyt.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["intcyt*"]

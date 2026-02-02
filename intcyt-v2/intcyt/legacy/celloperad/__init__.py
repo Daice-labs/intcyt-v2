@@ -1,0 +1,1 @@
+"""Legacy cell operad components."""

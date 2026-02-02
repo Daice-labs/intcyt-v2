@@ -1,0 +1,8 @@
+# Development/runner requirements for the entire repo
+numpy>=1.23
+scipy>=1.9
+matplotlib>=3.6
+torch
+torchvision
+scikit-learn
+pytest>=7.4
